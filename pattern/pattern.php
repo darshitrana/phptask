@@ -3,16 +3,14 @@
 $count=0;
 for($i=0;$i<4;$i++)
 {
-
-    for($j=0;$j<4;$j++)
+    echo "@";
+    for($j=0;$j<3;$j++)
     {
-//        echo "i".$i."----"."j".$j."<br/>";
-        echo "&";
+        $count++;
     }
     echo "#";
     echo "<br/>";
-
 }
 
-echo $count;
+echo "<br/>".$count;
 ?>
